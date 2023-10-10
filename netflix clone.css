@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+.showcase{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/1.jpg); */
+    position: relative;
+    /* opacity: 0.5; */
+    /* border: 0.1px solid red; */
+}
+.showcase::after{
+    content: "";
+    background-image: url(1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.showcase-top{
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    /* border: 0.1px solid red; */
+    z-index: 999;
+   
+  
+}
+.showcase-top img{
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    /* transform: translate(40%, -50%); */
+}
+button{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    font-size: 16px;
+    outline: none;
+    /* box-shadow: 0 5px 3px rgba(0, 0, 0, 0.45); */
+    
+}
+button:hover{
+    opacity: 0.9;
+}
+
+.showcase-content h1{
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    font-size: 70px;
+}
+.showcase-content h3{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.showcase-content p{
+    position: absolute;
+    top: 63%;
+    left: 33%;
+    font-weight: lighter;
+}
+
+input{
+    position: absolute;
+    top: 70%;
+    left: 29%;
+    width: 430px;
+    height: 40px;
+  
+}
+.showcase-content button{
+    position: absolute;
+    top: 70%;
+    left: 58.5%;
+    height: 44px;
+    width: 200px;
+     outline: none;
+}
+.kid-profile{
+    width: 100%;
+    height: 600px;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+    position: relative;
+     
+    
+}
+.img img{
+    width: 685px;
+    height: 581px;
+    /* border: 0.1px solid red; */
+    margin-left: 50px;
+}
+.img-content{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+.img-content h1{
+    font-size: 40px;
+}.img-content p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.vdo{
+    width: 100%;
+    height: 600px;
+    /* border-top: 4px solid gray; */
+    border-bottom: 4px solid gray;
+    position: relative;
+    display: flex;
+}
+.vdo-content{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.vdo-content h1{
+    font-size: 40px;
+}
+.vdo-content p{
+    padding-top:70px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.media{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+.media img{
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+.vdo video{
+    width: 470px;
+    height: 500px;
+    position: absolute;
+    top: px;
+    left: 20px;
+    z-index: -1;
+}
+.section{
+    width: 100%;
+    height: 600px;
+    /* border-top: 4px solid gray; */
+    border-bottom: 4px solid gray;
+    position: relative;
+}
+.section img{
+    width: 685px;
+    height: 581px;
+    /* border: 0.1px solid red; */
+    margin-left: 50px;
+}
+.desc{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+.desc h1{
+    font-size: 40px;
+}
+.desc p{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.vdo2{
+    width: 100%;
+    height: 600px;
+    /* border-top: 4px solid gray; */
+    border-bottom: 4px solid gray;
+    position: relative;
+    display: flex;
+}
+.desc1{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.desc1 h1{
+    font-size: 40px;
+}
+.desc1 p{
+    padding-top:70px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.content{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+}
+/* .content img{
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+} */
+.vdo2 video{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    z-index: -1;
+}
